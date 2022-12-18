@@ -13,7 +13,7 @@ public class Main {
         SlaveDTOParser dtoParser = new SlaveDTOParser(); //DTO - Data Transfer Object
 
         List<SlaveStringVariables> slaveStringVariablesList = stringparser.stringparsing("src/main/resources/slaves.csv");
-        List<SlaveDTO> slavesdtoList = DTOParser.dtoParserList(slaveStringVariablesList);
+        List<SlaveDTO> slavesdtoList = dtoParser.dtoParserList(slaveStringVariablesList);
 
 
     }
