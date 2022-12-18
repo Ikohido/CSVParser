@@ -10,7 +10,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws IOException {
         SlaveStringCsvParser stringparser = new SlaveStringCsvParser();
-        SlaveDTOParser DTOParser = new SlaveDTOParser(); //DTO - Data Transfer Object
+        SlaveDTOParser dtoParser = new SlaveDTOParser(); //DTO - Data Transfer Object
 
         List<SlaveStringVariables> slaveStringVariablesList = stringparser.stringparsing("src/main/resources/slaves.csv");
         List<SlaveDTO> slavesdtoList = DTOParser.dtoParserList(slaveStringVariablesList);
