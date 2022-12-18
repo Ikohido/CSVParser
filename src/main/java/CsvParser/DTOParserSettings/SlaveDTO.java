@@ -1,15 +1,15 @@
-package CommonPars.SecondPars;
+package CsvParser.DTOParserSettings;
 
 import java.time.LocalDate;
 import java.util.UUID;
 
-public class parser2 {
+public class SlaveDTO { //DTO - Data Transfer Object
    private UUID uuid;
    private String name;
    private double salary;
    private LocalDate birthday;
 
-    public parser2(UUID uuid, String name, double salary, LocalDate birthday) {
+    public SlaveDTO(UUID uuid, String name, double salary, LocalDate birthday) {
         this.uuid = uuid;
         this.name = name;
         this.salary = salary;

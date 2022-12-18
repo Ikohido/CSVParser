@@ -1,12 +1,12 @@
-package CommonPars.FirstPars;
+package CsvParser.StringParserSettings;
 
-public class parser {
+public class SlaveStringVariables {
     private String uuid;
     private String name;
     private String salary;
     private String birthday;
 
-    public parser(String uuid, String name, String salary, String birthday) {
+    public SlaveStringVariables(String uuid, String name, String salary, String birthday) {
         this.uuid = uuid;
         this.name = name;
         this.salary = salary;
