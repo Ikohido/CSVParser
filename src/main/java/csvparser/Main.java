@@ -22,7 +22,8 @@ public class Main {
         SlavesFilter filter = new SlavesFilter();
         LocalDate data = LocalDate.of(2010, 12, 4);
         String name = "B";
-        List<SlaveDTO> slavelist = filter.filterBySlaveDT(data, 1621, name, slavesDTOList);
+        double salary = 1621;
+        List<SlaveDTO> slavelist = filter.filterBySlaveDT(data, salary, name, slavesDTOList);
         for (SlaveDTO slave : slavelist) {
             System.out.println(slave);
         }
